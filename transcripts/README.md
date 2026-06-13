@@ -1,25 +1,27 @@
 # AI Transcripts
 
-The assessment asks for AI conversations used to understand the problem and build the
-solution. This folder should contain those records or links to them.
+This folder records the AI assistance used to understand the problem, design the method,
+and build the submission code.
 
-## Included
+## Included Local File
 
-- `DEVELOPMENT_NARRATIVE.md`: concise account of the AI-assisted build process, including
-  the measurements, failures, and design decisions behind the final method.
+- `DEVELOPMENT_NARRATIVE.md`: a concise summary of the AI-assisted development process,
+  including the measurements, design choices, failures, and final method.
 
-## Add Before Submission
+## Shared AI Conversations
 
-- Export this coding-agent session, if available in your tool, and save it here as
-  `codex_session.md` or similar.
-- Add any web-chat share links used to understand cadastral maps, 7/12 extracts, or the
-  BhuMe task.
+- Problem understanding process:
+  [Claude conversation](https://claude.ai/share/b20e777b-f855-41b1-aeae-9ad7921dd6c8)
 
-## Web Chat Links
+- Coding clarifications:
+  [Claude conversation](https://claude.ai/share/b20e777b-f855-41b1-aeae-9ad7921dd6c8)
 
-- None added yet. If you used a separate ChatGPT/Claude/Gemini web chat, paste the share
-  link here.
+- Buuld, Explanation, review, and final submission preparation:
+  [ChatGPT conversation](https://chatgpt.com/share/6a2cd99c-484c-83ee-aa3a-4319dabb0e99)
 
-If no separate web chats were used, say that in the video: the problem was understood from
-the assessment page and the local contract, and the AI-assisted reasoning is summarized in
-`DEVELOPMENT_NARRATIVE.md`.
+## Note
+
+The AI tools were used to clarify the assignment, reason about cadastral boundary drift,
+develop and refine the alignment method, check outputs, and prepare the final submission
+materials. The submitted code remains the runnable method for generating
+`predictions.geojson` from the village bundles.
