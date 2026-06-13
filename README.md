@@ -311,5 +311,4 @@ Before submitting, make sure:
 - `predictions.geojson` exists inside each attempted village folder;
 - `uv run validate_predictions.py` passes;
 - `transcripts/` contains the AI-use notes or exported transcript;
-- `VIDEO_WALKTHROUGH.md` is used to record the 5-minute explanation;
 - the video explains the method, confidence, and failure cases clearly.
