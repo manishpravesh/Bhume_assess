@@ -1,0 +1,48 @@
+# Python environments and package caches
+.venv/
+venv/
+env/
+.uv-cache/
+.uv-python/
+.cache/
+
+# Python generated files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration
+.python-version.local
+.env
+.env.*
+!.env.example
+
+# Large raster bundles - keep generated GeoJSON predictions, ignore heavy rasters.
+data/**/imagery.tif
+data/**/boundaries.tif
+
+# Scratch and generated analysis output
+viz_out/
+patch_example.png
+final_scores.txt
+*.log
+submission_assets/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Codex/agent metadata, if created
+.codex/
+.agents/
