@@ -304,11 +304,4 @@ the official starting position.
 - `boundaries.tif` can help, but it is not always reliable, so it is never treated as
   ground truth.
 
-## Final Submission Notes
 
-Before submitting, make sure:
-
-- `predictions.geojson` exists inside each attempted village folder;
-- `uv run validate_predictions.py` passes;
-- `transcripts/` contains the AI-use notes or exported transcript;
-- the video explains the method, confidence, and failure cases clearly.
